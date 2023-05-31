@@ -1,0 +1,135 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(img/matrixBig.jpg);
+    background: rgb(235, 255, 229);
+    
+  }
+  .container{
+    margin:auto;
+    width: 961px;
+    height: 651px;
+    padding: 1em;
+    margin-top: 1%;
+    border-radius: 23px;
+    border-color: rgb(250, 250, 250);
+    
+  }
+  .logo{
+    margin-top: 1%;
+    margin-left: 3%;
+    width: 90% ;
+    float: inherit;
+    color:black;
+    font-size: xx-large;
+    background-color: rgb(235 255 229);
+    border-radius: 23px; 
+  }
+  .left{
+    float: left;
+    width: 70%;
+    height: 70%;
+    border-radius: 24px;
+     /*border-color: rgb(206, 30, 30);*/
+  }
+  .right{
+    float: right;
+    width: 30%;
+    height: auto;
+    border-radius: 24px;
+    box-sizing: border-box;
+    /*border-color: rgb(255, 187, 0);*/
+  }
+  #mensaje{
+    width: 90%;
+    float: left;
+    margin-left: 15%;
+    background: rgb(235, 255, 229);
+
+  }
+  .left-button{
+    float: left;
+    width: 70%;
+    height: auto;
+    border-radius: 24px;
+  }
+  .imageimagenes{
+   margin-top: 1%;
+   margin-left: 5%;
+   float: inherit;
+  }
+  .tittle{
+    margin-left: 15%;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    padding: 1.1%;
+  }
+  .text-input{
+    float: left;
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 80%;
+    height: 60%;
+    text-shadow: 4px 0px 6px rgba(39,0,70,0.46);
+    color: #0A3871;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background: rgb(235, 255, 229);
+  }
+  #imgDer{
+    margin-left: 2%;
+    margin-top: 0%;
+    width: 90%;
+    height: 80%;
+  }
+  #texto{
+    font-size: 17px;
+    margin-left: 3%;
+    margin-right: 0.1%;
+    padding: 0%;
+
+  }
+  #texto2{
+    float: left;
+    margin-left: 10%;
+    color:#0A3871;
+    width: 80%;
+    height: 60%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border-radius: 9%;
+  }
+#btn-encriptar{
+    padding: 24px;
+    color: white;
+    font-weight: bold;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin: 11px 22px 2px 93px;
+    background: #0A3871;
+    box-shadow: 1px 0px 29px 12px rgba(0,0,0,0.5);
+    }
+#btn-desencriptar{
+    padding: 24px;
+    color: #0a3871;
+    font-weight: bold;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 10%;
+    background: #dfdfdf;
+    box-shadow: 1px 0px 29px 12px rgba(0,0,0,0.4);
+    }
+#copiar{
+    margin-left: 33%;
+    margin-top: 90%;
+    padding: 24PX;
+    width: 40%;
+    height: 10%;
+    background: #bbd698;
+    border-radius: 24PX;
+    display: none;
+}
